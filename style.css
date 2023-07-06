@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+.Navbar{
+    background-color: white;
+    width: 100%;
+
+}
+.Navbar img{
+    width: 130px;
+}
+.NavSide{
+    text-align: center;
+    display: inline-block;
+    width: 48%;
+}
+
+.navbarBtn{
+    display: inline-block;
+    width: 15%;
+    font-size: 20px;
+}
+
+.page{
+    width: 100%;
+    background-color: brown;
+
+}
+.page1{
+    height: 100vh;
+}
+/* Home Page */
+.HomePage{
+    width: 100%;
+    color: white;
+    background-color: black;
+    background-image: url(images/home/BackgroundPhoto.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+.Navbar{
+    color: #E7B580;
+}
+.HomePage span{
+    font-size: 20px;
+}
+.HomePage h1{
+    font-size: 60px;
+    font-weight: bolder;
+    
+}
+.HomeBtn{
+    display: inline-block;
+    background-color: #825A42;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: large;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.contactus{
+    background-color: transparent;
+    border-color: wheat;
+    
+}
+.content{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 200px;
+}
+
+
+/* Who We Are */
+
+.whoWeArePage{
+    background-color:#FFFFFF;
+}
+/* .whoWeArePage img{
+    width: 520px;
+    height: 520px;
+} */
+
+.benifitItem{
+    padding: 5px 0px;
+    
+}
+.benifitItem span{
+    color: #E7B580;
+    
+}
+.pageItem{
+    display:inline-block;
+    width: 49%;
+    
+}
+.description{
+    vertical-align: 100px;
+}
+.description h3{
+    font-size: 30px;
+
+}
+.poster{
+    text-align: center;
+   
+    
+}
+.poster img{
+    width: 100%;
+}
+.imgcontainer{
+    width: 70%;
+    margin: auto;
+    padding: 80px 0px;
+}
+
+.poster2 img{
+    width: 100%;
+}
+.OurLocationPage{
+    background-color: #F8F8F8;
+    width: 100%;
+}
+.imgPage3{
+    width: 100%;
+}
+.page  h3{
+    font-size: 30px;
+
+}
+.left-content{
+    width: 70%;
+    margin: auto;
+}
+.center{
+    margin: auto;
+}
+.our-baking-page{
+    width: 100% ;
+    background-color: #fff ;
+    padding:20px 0px ;
+
+}
+.baking-content{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.pad-item{
+    padding: 30px 0px;
+}
+.baking-content h3{
+    font-size: 30px;
+}
+.cards-container{
+    width: 80%;
+    margin: auto;
+}
+.clear-fix{
+    clear: both;
+}
+.card{
+    margin: 20px 20px;
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+
+.cardimg-container img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card h5{
+    padding: 20px 0px;
+    font-size: 20px;
+}
+
+.contact-info{
+    width: 100%;
+    
+}
+
+.contact-content{
+    width: 90%;
+    margin: auto;
+    padding: 90px 0px;
+}
+
+.deatails{
+    
+    width: 50%;
+    float: left;
+    padding: 50px 0px;
+}
+.deatails h3{
+    padding: 20px 0px;
+    font-size: 30px;
+}
+.deatails p{
+    padding: 10px 0px;
+}
+
+.calls-item{
+    padding: 10px 0px;
+}
+
+.item{
+    padding: 10px;
+}
+
+.item span{
+    padding-top: 10px;
+}
+
+.map-container{
+    padding-top: 60px;
+    width: 50%;
+  
+    float: left;
+}
+
+.map-box{
+    width:80%;
+    margin: auto;
+
+}
+
+.map{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.item2{
+    float: left;
+}
+
+.links-section{
+    background-color: #403D38;
+    color: #969696;
+    width: 100%;
+}
+.links-content{
+    width: 90%;
+    margin: auto;
+}
+.links-section h3{
+    color: #E0F3FF;
+    padding-bottom: 20px;
+}
+.sec{
+    float: left;
+    width: 23%;
+
+    padding: 40px 10px;
+}
+
+.links-content ul{
+    list-style-type: none;
+}
+
+.links li{
+    float: left;
+
+    width: 100%;
+    border-bottom: 1px solid #969696 ;
+}
+.links li p{
+    width: 90%;
+    float: left;
+}
+.img-contact{
+    width: 10%;
+    float: left;
+}
+.links img{
+    width: 100%;
+}
+
+.footer-sec{
+    background-color: #353330;
+    width: 100%;
+}
+.footer-content{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: #969696;
+    padding: 50px 0px;
+    font-size: 10px;
+}
+.footer-content p{
+    padding: 20px 0px;
+}
+.socailmedia{
+    margin: auto;
+    width: 20%;
+    text-align: center;
+
+}
+.logo-item{
+    float: left;
+    padding: 10px;
+    width: 16%;
+}
+.socailmedia img{
+    width: 100%;
+}
